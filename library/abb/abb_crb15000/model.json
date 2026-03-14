@@ -1,0 +1,9 @@
+{
+  "id": "abb_crb15000",
+  "label": "ABB / CRB15000",
+  "vendor": "ABB",
+  "model": "CRB15000",
+  "urdf": "library/abb/abb_crb15000/urdf/abb_crb15000.urdf",
+  "author": "Avery Tsai",
+  "source": "ros-industrial/abb"
+}

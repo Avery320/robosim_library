@@ -1,0 +1,9 @@
+{
+  "id": "ur16e",
+  "label": "UR / UR16e",
+  "vendor": "UR",
+  "model": "UR16e",
+  "urdf": "library/ur/ur16e/urdf/ur16e.urdf",
+  "author": "Avery Tsai",
+  "source": "UniversalRobots/Universal_Robots_ROS2_Description"
+}

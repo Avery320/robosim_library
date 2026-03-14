@@ -1,0 +1,9 @@
+{
+  "id": "ur5",
+  "label": "UR / UR5",
+  "vendor": "UR",
+  "model": "UR5",
+  "urdf": "library/ur/ur5/urdf/ur5.urdf",
+  "author": "Avery Tsai",
+  "source": "UniversalRobots/Universal_Robots_ROS2_Description"
+}

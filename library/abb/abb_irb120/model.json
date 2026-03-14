@@ -1,0 +1,9 @@
+{
+  "id": "abb_irb120",
+  "label": "ABB / IRB120",
+  "vendor": "ABB",
+  "model": "IRB120",
+  "urdf": "library/abb/abb_irb120/urdf/abb_irb120.urdf",
+  "author": "Avery Tsai",
+  "source": "ros-industrial/abb"
+}

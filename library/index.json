@@ -1,0 +1,65 @@
+[
+  {
+    "id": "abb_crb15000",
+    "label": "ABB / CRB15000",
+    "vendor": "ABB",
+    "model": "CRB15000",
+    "urdf": "library/abb/abb_crb15000/urdf/abb_crb15000.urdf",
+    "author": "Avery Tsai",
+    "source": "ros-industrial/abb"
+  },
+  {
+    "id": "abb_irb120",
+    "label": "ABB / IRB120",
+    "vendor": "ABB",
+    "model": "IRB120",
+    "urdf": "library/abb/abb_irb120/urdf/abb_irb120.urdf",
+    "author": "Avery Tsai",
+    "source": "ros-industrial/abb"
+  },
+  {
+    "id": "abb_irb1200",
+    "label": "ABB / IRB1200",
+    "vendor": "ABB",
+    "model": "IRB1200",
+    "urdf": "library/abb/abb_irb1200/urdf/abb_irb1200.urdf",
+    "author": "Avery Tsai",
+    "source": "ros-industrial/abb"
+  },
+  {
+    "id": "abb_irb4600",
+    "label": "ABB / IRB4600",
+    "vendor": "ABB",
+    "model": "IRB4600",
+    "urdf": "library/abb/abb_irb4600/urdf/abb_irb4600.urdf",
+    "author": "Avery Tsai",
+    "source": "ros-industrial/abb"
+  },
+  {
+    "id": "ur10",
+    "label": "UR / UR10",
+    "vendor": "UR",
+    "model": "UR10",
+    "urdf": "library/ur/ur10/urdf/ur10.urdf",
+    "author": "Avery Tsai",
+    "source": "UniversalRobots/Universal_Robots_ROS2_Description"
+  },
+  {
+    "id": "ur16e",
+    "label": "UR / UR16e",
+    "vendor": "UR",
+    "model": "UR16e",
+    "urdf": "library/ur/ur16e/urdf/ur16e.urdf",
+    "author": "Avery Tsai",
+    "source": "UniversalRobots/Universal_Robots_ROS2_Description"
+  },
+  {
+    "id": "ur5",
+    "label": "UR / UR5",
+    "vendor": "UR",
+    "model": "UR5",
+    "urdf": "library/ur/ur5/urdf/ur5.urdf",
+    "author": "Avery Tsai",
+    "source": "UniversalRobots/Universal_Robots_ROS2_Description"
+  }
+]

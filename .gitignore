@@ -49,3 +49,37 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyo
+*.pyd
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+# Virtual environments
+.venv/
+venv/
+env/
+# Editors
+.vscode/
+.idea/
