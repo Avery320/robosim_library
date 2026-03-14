@@ -1,0 +1,9 @@
+{
+  "id": "kuka_lbr_iiwa14_r820",
+  "label": "KUKA / kuka_lbr_iiwa14",
+  "vendor": "KUKA",
+  "model": "kuka_lbr_iiwa14",
+  "urdf": "library/kuka/kuka_lbr_iiwa14_r820/urdf/kuka_lbr_iiwa14_r820.urdf",
+  "author": "Avery Tsai",
+  "source": "https://github.com/kroshu/kuka_robot_descriptions"
+}
