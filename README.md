@@ -1,51 +1,21 @@
 # robosim_library
-update:2026.0314
 
-這個倉庫提供 [RoboSim](https://avery320.github.io/robot-demo/javascript/example/bundle/main.html) 的基礎機械手臂模型檔。
+這個倉庫提供 [RoboSim](https://avery320.github.io/robot-demo/javascript/example/bundle/main.html) 的基礎機械手臂模型檔，請依照 [貢獻指南](CONTRIBUTING.md) 新增模型，模型會自動加入 [RoboSim](https://avery320.github.io/robot-demo/javascript/example/bundle/main.html) 的 Robot Library 中。
 
-## Library Metadata
+## 目前收錄的機械手臂
 
-每個模型目錄都應包含一份 `model.json`，作為唯一資料來源。內容包括：
+| 出廠 | 模型 | ID | Author |
+|------|------|----|------|
+| ABB | CRB15000 | `abb_crb15000` | Avery |
+| ABB | IRB120 | `abb_irb120` | Avery |
+| ABB | IRB1200 | `abb_irb1200` | Avery |
+| ABB | IRB4600 | `abb_irb4600` | Avery |
+| KUKA | KR16 R1610-2 | `kuka_kr16_r1610_2` | Avery |
+| KUKA | KR240 R3330 | `kuka_kr240_r3330` | Avery |
+| KUKA | KR300 R2700-2 | `kuka_kr300_r2700_2` | Avery |
+| KUKA | KR560 R3100-2 | `kuka_kr560_r3100_2` | Avery |
+| KUKA | LBR IIWA14 | `kuka_lbr_iiwa14_r820` | Avery |
+| UR | UR5 | `ur5` | Avery |
+| UR | UR10 | `ur10` | Avery |
+| UR | UR16e | `ur16e` | Avery |
 
-```json
-{
-  "id": "abb_irb1200",
-  "label": "ABB / IRB1200",
-  "vendor": "ABB",
-  "model": "IRB1200",
-  "urdf": "library/abb/abb_irb1200/urdf/abb_irb1200.urdf",
-  "author": "Avery Tsai",
-  "source": "ros-industrial/abb"
-}
-```
-
-## index.json 
-
-`library/index.json` 是由各模型的 `model.json` 自動生成，不應手動編輯，現**階段先以 python 腳本進行手動更新**。
-
-```bash
-python3 scripts/generate_index.py
-```
-
-
-## Robot URDF
-以下為從開源專案獲取 urdf 模型的方法。
-
-### [UR robot](https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git)
-
-```bash
-rosrun xacro xacro --inorder ur.urdf.xacro ur_type:=ur5 name:=ur > ur5.urdf #name:=<robot name>
-```
-
-### [ABB robot](https://github.com/ros-industrial/abb.git)
-
-```bash
-rosrun xacro xacro irb1200_5_90.xacro > abb_irb1200.urdf
-```
-
-### [KUKA robot](https://github.com/kroshu/kuka_robot_descriptions.git)
-
-#### 修正 mesh 路徑
-```bash
-sed -i.bak 's|package://abb_irb1200_support/meshes|../meshes|g' abb_irb1200.urdf
-```
