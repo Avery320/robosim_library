@@ -54,6 +54,15 @@
     "source": "https://github.com/kroshu/kuka_robot_descriptions"
   },
   {
+    "id": "rccn_kuka_kr300r2500",
+    "label": "KUKA / kuka_kr300_r2500",
+    "vendor": "KUKA",
+    "model": "kuka_kr300_r2500",
+    "urdf": "library/rccn/rccn_kuka_kr300r2500/urdf/rccn_kuka_kr300r2500.urdf",
+    "author": "Avery Tsai",
+    "source": "https://github.com/rccn-dev/kuka_kr300_support.git"
+  },
+  {
     "id": "kuka_kr300_r2700_2",
     "label": "KUKA / kuka_kr300_r2700_2",
     "vendor": "KUKA",

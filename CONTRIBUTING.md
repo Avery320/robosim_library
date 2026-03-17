@@ -1,6 +1,10 @@
 # robosim_library 貢獻指南
 
-本文件說明如何為 robosim_library 貢獻機械手臂模型，包含檔案架構、URDF 規範、mesh 配置方式與新增模型流程。
+本文件說明如何為 robosim_library 貢獻機械手臂模型，包含檔案架構、URDF 規範、mesh 配置方式與新增模型流程。並以 ROS 座標與框架慣例作為開發標準，所有貢獻者在開發或更新機器人描述、座標階層、flange／tool0 定義，以及相關運動學資料時，應參考上述規範：
+
+- [**ROS REP-103**](https://www.ros.org/reps/rep-0103.html)：通用單位與座標規範
+- [**ROS REP-199**](https://gavanderhoorn.github.io/rep/rep-0199.html)：串聯式工業機械手臂之座標框架語意規範
+
 
 ## 專案總覽
 
