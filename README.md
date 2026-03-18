@@ -21,6 +21,8 @@
 | ABB | `abb_irb120` | Avery Tsai | abb |
 | ABB | `abb_irb1200` | Avery Tsai | abb |
 | ABB | `abb_irb4600` | Avery Tsai | abb |
+| Hiwin | `hiwin_ra605_710` | Avery Tsai | hiwin_ros |
+| Hiwin | `hiwin_ra610_1476` | Avery Tsai | hiwin_ros |
 | KUKA | `kuka_kr16_r1610_2` | Avery Tsai | kuka_robot_descriptions |
 | KUKA | `kuka_kr240_r3330` | Avery Tsai | kuka_robot_descriptions |
 | KUKA | `kuka_kr300_r2700_2` | Avery Tsai | kuka_robot_descriptions |
