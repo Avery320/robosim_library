@@ -10,8 +10,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 LIBRARY_ROOT = REPO_ROOT / "library"
 INDEX_PATH = LIBRARY_ROOT / "index.json"
-REQUIRED_FIELDS = ("id", "label", "vendor", "model", "urdf", "author")
-FIELD_ORDER = ("id", "label", "vendor", "model", "urdf", "author", "source")
+FIELD_ORDER = ("id", "urdf")
+REQUIRED_FIELDS = FIELD_ORDER
 
 
 def load_model(path: Path) -> dict:
@@ -30,10 +30,6 @@ def load_model(path: Path) -> dict:
         if field in data:
             normalized[field] = data[field]
 
-    for field, value in data.items():
-        if field not in normalized:
-            normalized[field] = value
-
     return normalized
 
 
@@ -42,7 +38,8 @@ def main() -> int:
     for model_path in sorted(LIBRARY_ROOT.glob("*/*/model.json")):
         models.append(load_model(model_path))
 
-    models.sort(key=lambda item: (item["vendor"].lower(), item["model"].lower(), item["id"].lower()))
+    # 依照 FIELD_ORDER 的內容進行排序，避免 KeyError
+    models.sort(key=lambda item: tuple(item.get(k, "").lower() for k in FIELD_ORDER))
     INDEX_PATH.write_text(json.dumps(models, indent=2, ensure_ascii=True) + "\n")
     print(f"Generated {INDEX_PATH} with {len(models)} entries.")
     return 0

@@ -1,6 +1,5 @@
 {
   "id": "abb_irb4600",
-  "label": "ABB / IRB4600",
   "vendor": "ABB",
   "model": "IRB4600",
   "urdf": "library/abb/abb_irb4600/urdf/abb_irb4600.urdf",

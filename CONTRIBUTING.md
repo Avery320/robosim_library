@@ -32,7 +32,6 @@ library/{vendor}/{model_id}/
 ```json
 {
   "id": "abb_irb1200",
-  "label": "ABB / IRB1200",
   "vendor": "ABB",
   "model": "IRB1200",
   "urdf": "library/abb/abb_irb1200/urdf/abb_irb1200.urdf",
@@ -46,7 +45,6 @@ library/{vendor}/{model_id}/
 | 欄位 | 必填 | 說明 |
 |------|------|------|
 | `id` | ✅ | 唯一識別碼，與模型目錄名稱一致 |
-| `label` | ✅ | 顯示用標籤，格式為 `廠牌 / 型號` |
 | `vendor` | ✅ | 廠牌名稱 |
 | `model` | ✅ | 型號名稱 |
 | `urdf` | ✅ | URDF 檔案的**相對路徑**（相對於專案根目錄） |

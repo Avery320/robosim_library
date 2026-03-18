@@ -1,0 +1,34 @@
+name: Auto Update Index and README
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate Index
+        run: python3 scripts/generate_index.py
+
+      - name: Update README
+        run: python3 scripts/update_readme.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(auto): update index.json and README.md [skip ci]"
+          file_pattern: 'library/index.json README.md'

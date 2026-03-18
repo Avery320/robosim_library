@@ -1,6 +1,5 @@
 {
   "id": "kuka_kr240_r3330",
-  "label": "KUKA / kuka_kr240_r3330",
   "vendor": "KUKA",
   "model": "kuka_kr240_r3330",
   "urdf": "library/kuka/kuka_kr240_r3330/urdf/kuka_kr240_r3330.urdf",

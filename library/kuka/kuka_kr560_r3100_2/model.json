@@ -1,6 +1,5 @@
 {
   "id": "kuka_kr560_r3100_2",
-  "label": "KUKA / kuka_kr560_r3100_2",
   "vendor": "KUKA",
   "model": "kuka_kr560_r3100_2",
   "urdf": "library/kuka/kuka_kr560_r3100_2/urdf/kuka_kr560_r3100_2.urdf",

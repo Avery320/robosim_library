@@ -1,6 +1,5 @@
 {
   "id": "ur10",
-  "label": "UR / UR10",
   "vendor": "UR",
   "model": "UR10",
   "urdf": "library/ur/ur10/urdf/ur10.urdf",

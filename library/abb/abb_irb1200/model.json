@@ -1,6 +1,5 @@
 {
   "id": "abb_irb1200",
-  "label": "ABB / IRB1200",
   "vendor": "ABB",
   "model": "IRB1200",
   "urdf": "library/abb/abb_irb1200/urdf/abb_irb1200.urdf",
