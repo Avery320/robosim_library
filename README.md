@@ -15,6 +15,20 @@
 ## 目前收錄的機械手臂
 
 <!-- ROBOT_TABLE_START -->
-
+| 出廠 | ID | Author | Source |
+|------|----|--------|--------|
+| ABB | `abb_crb15000` | Avery Tsai | abb |
+| ABB | `abb_irb120` | Avery Tsai | abb |
+| ABB | `abb_irb1200` | Avery Tsai | abb |
+| ABB | `abb_irb4600` | Avery Tsai | abb |
+| KUKA | `kuka_kr16_r1610_2` | Avery Tsai | kuka_robot_descriptions |
+| KUKA | `kuka_kr240_r3330` | Avery Tsai | kuka_robot_descriptions |
+| KUKA | `kuka_kr300_r2700_2` | Avery Tsai | kuka_robot_descriptions |
+| KUKA | `kuka_kr560_r3100_2` | Avery Tsai | kuka_robot_descriptions |
+| KUKA | `kuka_lbr_iiwa14_r820` | Avery Tsai | kuka_robot_descriptions |
+| KUKA | `rccn_kuka_kr300r2500` | Avery Tsai | kuka_kr300_support |
+| UR | `ur10` | Avery Tsai | Universal_Robots_ROS2_Description |
+| UR | `ur16e` | Avery Tsai | Universal_Robots_ROS2_Description |
+| UR | `ur5` | Avery Tsai | Universal_Robots_ROS2_Description |
 <!-- ROBOT_TABLE_END -->
 
