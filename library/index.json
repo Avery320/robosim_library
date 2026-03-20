@@ -24,6 +24,10 @@
     "urdf": "library/hiwin/hiwin_ra610_1476/urdf/hiwin_ra610_1476.urdf"
   },
   {
+    "id": "kuka_kr10_r1100_2",
+    "urdf": "library/kuka/kuka_kr10_r1100_2/urdf/kuka_kr10_r1100_2.urdf"
+  },
+  {
     "id": "kuka_kr16_r1610_2",
     "urdf": "library/kuka/kuka_kr16_r1610_2/urdf/kuka_kr16_r1610_2.urdf"
   },
@@ -38,6 +42,14 @@
   {
     "id": "kuka_kr560_r3100_2",
     "urdf": "library/kuka/kuka_kr560_r3100_2/urdf/kuka_kr560_r3100_2.urdf"
+  },
+  {
+    "id": "kuka_kr6_r700_2",
+    "urdf": "library/kuka/kuka_kr6_r700_2/urdf/kuka_kr6_r700_2.urdf"
+  },
+  {
+    "id": "kuka_kr6_r900_2",
+    "urdf": "library/kuka/kuka_kr6_r900_2/urdf/kuka_kr6_r900_2.urdf"
   },
   {
     "id": "kuka_lbr_iiwa14_r820",
