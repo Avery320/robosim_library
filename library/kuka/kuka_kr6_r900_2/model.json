@@ -1,0 +1,8 @@
+{
+  "id": "kuka_kr6_r900_2",
+  "vendor": "KUKA",
+  "model": "kuka_kr6_r900_2",
+  "urdf": "library/kuka/kuka_kr6_r900_2/urdf/kuka_kr6_r900_2.urdf",
+  "author": "Avery Tsai",
+  "source": "https://github.com/kroshu/kuka_robot_descriptions"
+}

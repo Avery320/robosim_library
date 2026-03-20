@@ -133,3 +133,8 @@ rosrun xacro xacro irb1200_5_90.xacro > abb_irb1200.urdf
 ```
 
 ### [KUKA robot](https://github.com/kroshu/kuka_robot_descriptions.git)
+
+```
+python3 -m xacro.cli kr10_r1100_2.urdf.xacro > kuka_kr10_r1100_2.urdf
+python3 -m xacro.cli input.urdf.xacro > output.urdf
+```

@@ -1,0 +1,8 @@
+{
+  "id": "kuka_kr10_r1100_2",
+  "vendor": "KUKA",
+  "model": "kuka_kr10_r1100_2",
+  "urdf": "library/kuka/kuka_kr10_r1100_2/urdf/kuka_kr10_r1100_2.urdf",
+  "author": "Avery Tsai",
+  "source": "https://github.com/kroshu/kuka_robot_descriptions"
+}
