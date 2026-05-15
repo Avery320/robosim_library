@@ -37,3 +37,12 @@
 | UR | `ur5` | Avery Tsai | Universal_Robots_ROS2_Description |
 <!-- ROBOT_TABLE_END -->
 
+## generate kuka kinematics profile
+```
+python3 tools/kuka_kinematics_profile.py --urdf <>.urdf 
+```
+#### example
+```
+python3 tools/kuka_kinematics_profile.py --urdf library/kuka/kuka_kr6_r900_2/urdf/kuka_kr6_r900_2.urdf 
+```
+

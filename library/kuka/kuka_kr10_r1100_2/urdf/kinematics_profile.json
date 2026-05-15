@@ -1,0 +1,111 @@
+{
+  "schema": "robosim.robot.kinematics_profile.v1",
+  "id": "kuka_kr10_r1100_2",
+  "manufacturer": "kuka",
+  "model": "kuka_kr10_r1100_2",
+  "solverType": "sphericalWrist",
+  "dhConvention": "standard",
+  "units": {
+    "length": "m",
+    "angle": "rad"
+  },
+  "jointOrder": [
+    "joint_1",
+    "joint_2",
+    "joint_3",
+    "joint_4",
+    "joint_5",
+    "joint_6"
+  ],
+  "jointSigns": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "jointOffsets": [
+    0.0,
+    0.0,
+    1.5707963267948966,
+    0.0,
+    0.0,
+    -3.141592653589793
+  ],
+  "homeJoints": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dh": [
+    {
+      "a": 0.025,
+      "d": 0.4,
+      "alpha": 1.570796326795,
+      "theta": 0.0,
+      "sign": -1
+    },
+    {
+      "a": 0.56,
+      "d": 0.0,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "sign": -1
+    },
+    {
+      "a": 0.025,
+      "d": 0.0,
+      "alpha": 1.570796326795,
+      "theta": 1.570796326795,
+      "sign": -1
+    },
+    {
+      "a": 0.0,
+      "d": 0.515,
+      "alpha": -1.570796326795,
+      "theta": 0.0,
+      "sign": -1
+    },
+    {
+      "a": 0.0,
+      "d": 0.0,
+      "alpha": 1.570796326795,
+      "theta": 0.0,
+      "sign": -1
+    },
+    {
+      "a": 0.0,
+      "d": 0.09,
+      "alpha": 0.0,
+      "theta": -3.14159265359,
+      "sign": -1
+    }
+  ],
+  "toolFramePose": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "quaternion": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "sampleCount": 7,
+    "maxPositionErrorMm": 9.543998177471981e-11,
+    "maxOrientationErrorDeg": 0.0,
+    "tolerance": {
+      "positionMm": 0.5,
+      "orientationDeg": 0.1
+    }
+  }
+}

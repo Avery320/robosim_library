@@ -3,6 +3,7 @@
   "vendor": "KUKA",
   "model": "kuka_kr6_r900_2",
   "urdf": "library/kuka/kuka_kr6_r900_2/urdf/kuka_kr6_r900_2.urdf",
+  "kinematicsProfile": "library/kuka/kuka_kr6_r900_2/urdf/kinematics_profile.json",
   "author": "Avery Tsai",
   "source": "https://github.com/kroshu/kuka_robot_descriptions"
 }

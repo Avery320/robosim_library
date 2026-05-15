@@ -83,3 +83,6 @@ env/
 # Editors
 .vscode/
 .idea/
+
+# ignore open_souce folder (personal folder)
+/open_source
