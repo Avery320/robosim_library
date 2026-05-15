@@ -10,8 +10,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 LIBRARY_ROOT = REPO_ROOT / "library"
 INDEX_PATH = LIBRARY_ROOT / "index.json"
-FIELD_ORDER = ("id", "urdf")
-REQUIRED_FIELDS = FIELD_ORDER
+FIELD_ORDER = ("id", "urdf", "kinematicsProfile")
+REQUIRED_FIELDS = ("id", "urdf")
 
 
 def load_model(path: Path) -> dict:
@@ -24,6 +24,12 @@ def load_model(path: Path) -> dict:
     urdf_path = REPO_ROOT / data["urdf"]
     if not urdf_path.exists():
         raise ValueError(f"{path}: urdf not found: {data['urdf']}")
+
+    kinematics_profile = data.get("kinematicsProfile")
+    if kinematics_profile:
+        profile_path = REPO_ROOT / kinematics_profile
+        if not profile_path.exists():
+            raise ValueError(f"{path}: kinematicsProfile not found: {kinematics_profile}")
 
     normalized = {}
     for field in FIELD_ORDER:
