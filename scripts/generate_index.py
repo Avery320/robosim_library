@@ -25,11 +25,18 @@ def load_model(path: Path) -> dict:
     if not urdf_path.exists():
         raise ValueError(f"{path}: urdf not found: {data['urdf']}")
 
+    urdf_relative_path = Path(data["urdf"])
     kinematics_profile = data.get("kinematicsProfile")
+    if not kinematics_profile:
+        inferred_profile = urdf_relative_path.with_name("kinematics_profile.json")
+        if (REPO_ROOT / inferred_profile).exists():
+            kinematics_profile = inferred_profile.as_posix()
+
     if kinematics_profile:
         profile_path = REPO_ROOT / kinematics_profile
         if not profile_path.exists():
             raise ValueError(f"{path}: kinematicsProfile not found: {kinematics_profile}")
+        data["kinematicsProfile"] = kinematics_profile
 
     normalized = {}
     for field in FIELD_ORDER:

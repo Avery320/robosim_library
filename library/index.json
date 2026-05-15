@@ -46,7 +46,8 @@
   },
   {
     "id": "kuka_kr6_r700_2",
-    "urdf": "library/kuka/kuka_kr6_r700_2/urdf/kuka_kr6_r700_2.urdf"
+    "urdf": "library/kuka/kuka_kr6_r700_2/urdf/kuka_kr6_r700_2.urdf",
+    "kinematicsProfile": "library/kuka/kuka_kr6_r700_2/urdf/kinematics_profile.json"
   },
   {
     "id": "kuka_kr6_r900_2",
@@ -59,7 +60,8 @@
   },
   {
     "id": "rccn_kuka_kr300r2500",
-    "urdf": "library/rccn/rccn_kuka_kr300r2500/urdf/rccn_kuka_kr300r2500.urdf"
+    "urdf": "library/rccn/rccn_kuka_kr300r2500/urdf/rccn_kuka_kr300r2500.urdf",
+    "kinematicsProfile": "library/rccn/rccn_kuka_kr300r2500/urdf/kinematics_profile.json"
   },
   {
     "id": "ur10",
