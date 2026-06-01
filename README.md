@@ -44,5 +44,6 @@ python3 tools/kuka_kinematics_profile.py --urdf <>.urdf
 #### example
 ```
 python3 tools/kuka_kinematics_profile.py --urdf library/kuka/kuka_kr6_r900_2/urdf/kuka_kr6_r900_2.urdf 
+python3 tools/kuka_kinematics_profile.py --urdf library/abb/abb_crb15000/urdf/abb_crb15000.urdf
 ```
 
