@@ -17,11 +17,13 @@
   },
   {
     "id": "hiwin_ra605_710",
-    "urdf": "library/hiwin/hiwin_ra605_710/urdf/hiwin_ra605_710.urdf"
+    "urdf": "library/hiwin/hiwin_ra605_710/urdf/hiwin_ra605_710.urdf",
+    "kinematicsProfile": "library/hiwin/hiwin_ra605_710/urdf/kinematics_profile.json"
   },
   {
     "id": "hiwin_ra610_1476",
-    "urdf": "library/hiwin/hiwin_ra610_1476/urdf/hiwin_ra610_1476.urdf"
+    "urdf": "library/hiwin/hiwin_ra610_1476/urdf/hiwin_ra610_1476.urdf",
+    "kinematicsProfile": "library/hiwin/hiwin_ra610_1476/urdf/kinematics_profile.json"
   },
   {
     "id": "kuka_kr10_r1100_2",
@@ -30,7 +32,8 @@
   },
   {
     "id": "kuka_kr16_r1610_2",
-    "urdf": "library/kuka/kuka_kr16_r1610_2/urdf/kuka_kr16_r1610_2.urdf"
+    "urdf": "library/kuka/kuka_kr16_r1610_2/urdf/kuka_kr16_r1610_2.urdf",
+    "kinematicsProfile": "library/kuka/kuka_kr16_r1610_2/urdf/kinematics_profile.json"
   },
   {
     "id": "kuka_kr240_r3330",
