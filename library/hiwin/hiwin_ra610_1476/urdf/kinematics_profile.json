@@ -1,0 +1,111 @@
+{
+  "schema": "robosim.robot.kinematics_profile.v1",
+  "id": "hiwin_ra610_1476",
+  "manufacturer": "hiwin",
+  "model": "RA610-1476",
+  "solverType": "sphericalWrist",
+  "dhConvention": "standard",
+  "units": {
+    "length": "m",
+    "angle": "rad"
+  },
+  "jointOrder": [
+    "joint_1",
+    "joint_2",
+    "joint_3",
+    "joint_4",
+    "joint_5",
+    "joint_6"
+  ],
+  "jointSigns": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "jointOffsets": [
+    1.5707963267948966,
+    1.5707963267948966,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "homeJoints": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "dh": [
+    {
+      "a": 0.14,
+      "d": 0.4485,
+      "alpha": 1.5707963267948966,
+      "theta": 1.5707963267948966,
+      "sign": 1
+    },
+    {
+      "a": 0.64,
+      "d": 0.0,
+      "alpha": 0.0,
+      "theta": 1.5707963267948966,
+      "sign": 1
+    },
+    {
+      "a": 0.16,
+      "d": 0.0,
+      "alpha": 1.5707963267948966,
+      "theta": 0.0,
+      "sign": 1
+    },
+    {
+      "a": 0.0,
+      "d": 0.678,
+      "alpha": -1.5707963267948966,
+      "theta": 0.0,
+      "sign": 1
+    },
+    {
+      "a": 0.0,
+      "d": 0.0,
+      "alpha": 1.5707963267948966,
+      "theta": 0.0,
+      "sign": 1
+    },
+    {
+      "a": 0.0,
+      "d": 0.101,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "sign": 1
+    }
+  ],
+  "toolFramePose": {
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "quaternion": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0,
+      "w": 0.0
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "sampleCount": 7,
+    "maxPositionErrorMm": 2.484407466988809e-13,
+    "maxOrientationErrorDeg": 0.0,
+    "tolerance": {
+      "positionMm": 0.5,
+      "orientationDeg": 0.1
+    }
+  }
+}

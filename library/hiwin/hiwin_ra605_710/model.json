@@ -3,6 +3,7 @@
   "vendor": "Hiwin",
   "model": "RA605-710",
   "urdf": "library/hiwin/hiwin_ra605_710/urdf/hiwin_ra605_710.urdf",
+  "kinematicsProfile": "library/hiwin/hiwin_ra605_710/urdf/kinematics_profile.json",
   "author": "Avery Tsai",
   "source": "https://github.com/Avery320/hiwin_ros.git"
 }
